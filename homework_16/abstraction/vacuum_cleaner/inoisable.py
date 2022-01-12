@@ -2,6 +2,6 @@ from abc import ABC, abstractmethod
 
 
 class INoisable(ABC):
-    @abstracmethod
+    @abstractmethod
     def noise(self):
         ...
