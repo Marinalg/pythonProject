@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
 class Ivacuumable(ABC):
-    @abstracmethod
+    @abstractmethod
     def vacuum(self):
         ...
