@@ -1,7 +1,7 @@
-from homework_20_singleton_factorymethod.products.product import Banana
-from homework_20_singleton_factorymethod.products.product import Apple
-from homework_20_singleton_factorymethod.products.product import Stawberry
-from homework_20_singleton_factorymethod.products.product import Product
+from homework_21_singleton_factorymethod.products.product import Banana
+from homework_21_singleton_factorymethod.products.product import Apple
+from homework_21_singleton_factorymethod.products.product import Stawberry
+from homework_21_singleton_factorymethod.products.product import Product
 
 class GroceryMarket:
     @staticmethod

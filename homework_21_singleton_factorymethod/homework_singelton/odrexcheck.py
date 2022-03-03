@@ -1,4 +1,4 @@
-from homework_20_singleton_factorymethod.homework_singelton import singelton_hw
+from homework_21_singleton_factorymethod.homework_singelton import singelton_hw
 
 
 @singelton_hw
