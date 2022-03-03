@@ -8,11 +8,11 @@ driver = Chrome("./chromedriver")
 driver.get("https://vanongo.com/retail-supermarkets/")
 driver.maximize_window()
 
-element: WebElement = driver.find_element(By.XPATH, "////a[contains(text(), 'Send')]")
+element: WebElement = driver.find_element(By.XPATH, "//li[@class='pagination-link next-link']/a[./span[text()='next']]")
 sleep(1)
 element.click()
 
-element: WebElement = driver.find_element()
+
 
 sleep(7)
 driver.quit()
